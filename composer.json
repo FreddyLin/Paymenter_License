@@ -1,0 +1,20 @@
+{
+    "name": "luminanode/licenses",
+    "description": "Sell software licenses with an online validation API and file downloads for Paymenter",
+    "type": "paymenter-extension",
+    "version": "1.3.0",
+    "authors": [
+        {
+            "name": "LuminaNode",
+            "homepage": "https://luminanode.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Paymenter\\Extensions\\Servers\\Licenses\\": "./"
+        }
+    },
+    "require": {
+        "php": "^8.1"
+    }
+}
